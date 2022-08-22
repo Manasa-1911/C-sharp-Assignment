@@ -4,23 +4,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp
+namespace ConsoleAppDemo
 {
-   internal class assgn4
+   internal class vowels
    {
       public static void Main()
       {
-           int a=0,count=1;
-           string s="Sonata Software";
-           while(a<=s.Length-1)
-           {
-               if(s[a]==' '|| s[a]=='\n'||s[a]=='\t')
-               {
-                   count++;
-               }
-                 a++;
-           }
-            Console.WriteLine("Number of vowels in the string={0}\n",count);
-       }
+            string s;
+            int i, len, vowel_count, cons_count;
+            s = "Sonata Software";
+            vowel_count = 0;
+            cons_count = 0;
+            len = s.Length;
+            for (i = 0; i < len; i++)
+            {
+                if (s[i] == 'a' || s[i] == 'e' || s[i] == 'i' || s[i] == 'o' || s[i] == 'u' || s[i] == 'A' || s[i] == 'E' || s[i] == 'I' || s[i] == 'O' || s[i] == 'U')
+                {
+                    vowel_count++;
+                }
+                else
+                {
+                    cons_count++;
+                }
+            }
+            Console.Write("Vowels in the string: {0}\n", vowel_count);
+        }
     }
 }
