@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppDemo
 {
-    internal class CsharpAssignment
+    internal class Age
     {
         public static void Main()
         {
