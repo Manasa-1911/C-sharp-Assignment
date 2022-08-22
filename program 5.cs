@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppDemo
 {
-    internal class ReplaceString
+    internal class StringReplace
     {
         static void Main(string[] args)
         {
