@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppDemo
 {
-    internal class CsharpAssignment
+    internal class Multiplication
     {
         public static void Main()
         {
