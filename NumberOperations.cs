@@ -8,7 +8,7 @@ namespace ConsoleAppDemo
 {
     internal class inputnumber
     {
-        public static int InpNo(int num)
+        public static int SumOfNo(int num)
         {
             int sum = 0;
             while (num != 0)
@@ -34,7 +34,7 @@ namespace ConsoleAppDemo
                 int number;
                 Console.WriteLine("Enter a number");
                 number = int.Parse(Console.ReadLine());
-                int sum = InpNo(number);
+                int sum = SumOfNo(number);
                 Console.WriteLine($"Sum of numbers are {sum}");
                 int rev = ReverseNo(number);
                 Console.WriteLine($"Reverse of a number is {rev}");
