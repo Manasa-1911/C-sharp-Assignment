@@ -32,7 +32,7 @@ namespace ConsoleAppDemo
         public static void Main()
         {
                 int number;
-                Console.WriteLine("Enter a number");
+                Console.WriteLine("Enter a number");    
                 number = int.Parse(Console.ReadLine());
                 int sum = SumOfNo(number);
                 Console.WriteLine($"Sum of numbers are {sum}");
