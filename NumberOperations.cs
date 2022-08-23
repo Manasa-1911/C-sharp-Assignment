@@ -30,7 +30,7 @@ namespace ConsoleAppDemo
             return reverse;
         }
         public static void Main()
-            {
+        {
                 int number;
                 Console.WriteLine("Enter a number");
                 number = int.Parse(Console.ReadLine());
@@ -38,6 +38,6 @@ namespace ConsoleAppDemo
                 Console.WriteLine($"Sum of numbers are {sum}");
                 int rev = ReverseNo(number);
                 Console.WriteLine($"Reverse of a number is {rev}");
-            }
-        }
-    }
+         }
+     }
+}
