@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleAppDemo
+{
+    public enum Season
+    {
+        Spring,
+        Summer,
+        Autumn,
+        Winter
+    }
+
+    public class EnumConversionExample
+    {
+        public static void Main()
+        {
+            var a = Season.Autumn;
+            Console.WriteLine($"Integral value of {a} is {(int)a}");  // output: Integral value of Autumn is 2
+
+            var b = (Season)0;
+            Console.WriteLine(b);  // output: Summer
+
+            var c = (Season)4;
+            Console.WriteLine(c);  // output: 4
+        }
+    }
+}
