@@ -29,7 +29,7 @@ namespace ConsoleAppDemo
             Console.Write("The elements stored in the first array are :");
             for (i = 0; i < n; i++)
             {
-                Console.Write($"{arr1[i]} ");
+                Console.Write($"{arr1[i]} ");  
             }
             Console.Write("\nThe elements in the second array are:");
             for (i = 0; i < n; i++)
