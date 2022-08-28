@@ -27,7 +27,7 @@ namespace ConsoleAppDemo
                 {
                     lar = arr1[i];
                     j = i;
-                }
+                } 
             }
 
             seclar = 0;
