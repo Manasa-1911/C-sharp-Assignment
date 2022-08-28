@@ -1,11 +1,9 @@
 using System;
 namespace ConsoleAppDemo
 {
-    class Duplicate
+    internal class Duplicate
     {
         public static void Main()
-    
-
         {  
             int[] items = { 1,2,3,4,5,2,4,8};  
             int n = items.Length;  
