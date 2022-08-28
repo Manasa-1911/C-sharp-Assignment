@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace ConsoleAppDemo;
 
-class Mergedfunction
+internal class Mergedfunction
 {
-    static void Main()
+    public static void Main()
     {
         int i = 0;
         int j = 0;
