@@ -8,7 +8,7 @@ namespace ConsoleAppDemo
 {
     internal class Negativenumbers
     {
-        public static void Main()
+        public static void Main() 
         {
             int[] arr = { 1,-3,4,6,-8,-10 };
             int i, n;
@@ -17,7 +17,7 @@ namespace ConsoleAppDemo
             {
                 if (arr[i] < 0)
                 {
-                    Console.Write($"{arr[i]}");
+                    Console.WriteLine($"{arr[i]}");
                 }
 
             }
